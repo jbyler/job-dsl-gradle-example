@@ -9,7 +9,7 @@ folder(basePath) {
 
 job("$basePath/seed") {
     scm {
-        github 'sheehan/job-dsl-gradle-example'
+        github 'jbyler/job-dsl-gradle-example'
     }
     triggers {
         scm 'H/5 * * * *'
